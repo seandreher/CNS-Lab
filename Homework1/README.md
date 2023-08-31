@@ -7,4 +7,4 @@ LT Quarry <br />
 ## **Provision a Virtual Machine**
 
 <br />
-## **Configuring a Netowkr**
+## **Configuring a Netowrk**
