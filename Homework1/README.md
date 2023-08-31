@@ -1,7 +1,7 @@
 # **Computer & Network Security**
 Sean Dreher  <br />
 Homework 1  <br />
-30 Aug 2023  <br />
+31 Aug 2023  <br />
 LT Quarry <br />
 <br />
 ## **Provision a Virtual Machine**
