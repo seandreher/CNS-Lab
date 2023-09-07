@@ -10,4 +10,4 @@ LT Quarry <br />
   <br />
 3. something something <br />
 ![tomcat screenshot](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/tomcat.png)
-
+<br />
