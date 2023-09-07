@@ -13,3 +13,7 @@ Container 1: The docker container for the new Datadog Agent is datadog/agent. Th
 ## **Container Added to docker-compose configuration**
 Damn Vulnerable web app is a PHP/MySQL web application that is vulnerable and the container is vulnerables/web-dvwa. The organization behind the container is a community organization that goes by the name of vulnerables. They push out many different vulnerable containers where people can test out exploiting vulnerabilities. There does not appear to be options when running the container as the user is expected to find flaws and exploit the default program. However, while there are not options when running the container, there are several other ways and other vulnerabilities do exploit! <br />
 ![cont2](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/cont2.png)
+
+**Question 5** <br />
+Below is the screenshot that shows the different hosts and routers. In addition, the attacker is now the container in the image above.
+![lab2dockps](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/lab2dockps.png)
