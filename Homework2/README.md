@@ -20,6 +20,7 @@ Below is the screenshot of the output of my commandline when I use dockps on the
 ![lab2dockps](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/dockshdockps.png)
 
 ## **Additional Screenshots**
+I was unable to ping hosts 1-3 from the new container. <br />
 The screenshot below is the network service of the container running in the VM. It is a website that allows me to have hands on practice with web application security. <br />
 ![dvwa](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/dvwa.png)
 
