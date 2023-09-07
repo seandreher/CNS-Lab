@@ -9,4 +9,5 @@ LT Quarry <br />
 ![datadog screenshot](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/datadog.png)
   <br />
 2. Apache Tomcat (or simply Tomcat). The organization behind this container is Apache Software Foundation. The tomcat images come in many different flavors, each which is designed for a specific use case. It is recommended to use the defacto image if you are unsure of your needs. It can be used as a throwaway container as well as a base to build other images off of. The other version mentioned does not contain common packages which are found in the default and only contain minimal packages needed to run tomcat. The latter is only recommended if there are space constraints. <br />
->
+![tomcatty screenshot](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/tomcatty.png)
+<br />
