@@ -16,5 +16,5 @@ Damn Vulnerable web app is a PHP/MySQL web application that is vulnerable and th
 ![cont2](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/cont2.png)
 
 **Question 5** <br />
-Below is the screenshot that shows the different hosts and routers. In addition, the attacker is now the container in the image above.
+Below is the screenshot of the output of my commandline when I use dockps on the VM. This is the same output from lab 2 except for the container in the image above is now the 'attacker'.
 ![lab2dockps](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/lab2dockps.png)
