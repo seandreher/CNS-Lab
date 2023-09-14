@@ -13,3 +13,4 @@ I  installed SCC on the VM through the terminal. I used the command vagrant ssh 
 ## **SCC Tool Results**
 
 <br />
+![sccrunning](https://github.com/seandreher/CNS-Lab/blob/main/Homework2/sccrunning.png)
