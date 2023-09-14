@@ -12,6 +12,7 @@ I  installed SCC on the VM through the terminal. I used the command vagrant ssh 
 
 ## **SCC Tool Results**
 From the Summary Viewer, I concluded that the score could be much better as the general pass to fail ratio is 1:2. The overall score was 35.39. There were 86 passes, 157 fails, and 137 unchecked. There were 19 CAT I's. I was able to gain access to these by using curl transfer.sh to zip the file, transfer it to my computer, extract it, and then open it from Chrome.
+## **SCC Running on Command Line**
 ![sccrun](https://github.com/seandreher/CNS-Lab/blob/main/Homework3/sccrunning.png)
 <br />
 Above is a screenshot of the SCC running in my command line.
