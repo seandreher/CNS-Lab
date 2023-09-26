@@ -20,3 +20,5 @@ LT Quarry <br />
 ## **4. Powershell Script Execution**
 
 ![aotCMD](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/aotCMD.png)
+
+## **5. Changes from badblood**
