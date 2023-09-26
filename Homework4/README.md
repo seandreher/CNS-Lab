@@ -11,7 +11,7 @@ LT Quarry <br />
 
 ## **2. Logging in with Created AD User**
 
-![setcmd](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/setcommand.png)
+![setcmd](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/setcommmand.png)
 
 ## **3. Powershell Execution Policy**
 
