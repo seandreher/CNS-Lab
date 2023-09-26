@@ -15,7 +15,7 @@ LT Quarry <br />
 
 ## **3. Powershell Execution Policy**
 
-![execPol](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/executionpolicy.png)
+![execPol](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/executionPolicy.png)
 
 ## **4. Powershell Script Execution**
 
