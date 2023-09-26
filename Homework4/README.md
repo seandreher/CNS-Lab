@@ -6,11 +6,17 @@ LT Quarry <br />
 <br />
 ## **1. AD Users**
 
+![allUsers](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/Users.png)
+![sdreher](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/SDreherProperties.png)
+
 ## **2. Logging in with Created AD User**
+
+![setcmd](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/setcommand.png)
 
 ## **3. Powershell Execution Policy**
 
+![execPol](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/executionpolicy.png)
+
 ## **4. Powershell Script Execution**
 
-
-
+![aotCMD](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/aotCMD.png)
