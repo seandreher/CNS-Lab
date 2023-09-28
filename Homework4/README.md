@@ -23,3 +23,18 @@ In this command, I created a Powershell script that will output a small biograph
 ![aotCMD](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/aotCMD.png)
 
 ## **5. Changes from badblood**
+The badblood script modifications introduced enhanced the organizational framework of our Active Directory Users and Computers (ADUC), aligning it more closely with an enterprise setup. Our group's ADUC lacked structure. The badblood script incorporated additional groups. This resembles an enterprise's AD. These various groups play a crucial role by enabling the categorization of users based on permissions, facilitating improved monitoring capabilities. <br />
+The screenshots below demonstrate the changes in the AD environment that occurred when running badblood. The first screenshot is a list of the random users that were created. It should be noted that running badblood produces different results every sinle time. The second screenshot is a count of the users, groups, and computers. The last five screenshots are screenshots of badblood running. <br />
+I acknowledge working with Ryan Vigo, Lauren Oakes and Zoe Cousinea (my lab group) on this assignment. <br />
+![newusers](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/newusers.png) <br />
+![usercount](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/usercount.png) <br />
+![bb1](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/bbrun1.png) <br />
+![bb2](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/bbrun2.png) <br />
+![bb3](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/bbrun3.png) <br />
+![bb4](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/bbrun4.png) <br />
+![bb5](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/bbrun5.png) <br />
+
+
+
+
+
