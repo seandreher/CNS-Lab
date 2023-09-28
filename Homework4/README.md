@@ -19,7 +19,7 @@ This screenshot below is running the execution policy. In the first line, I set 
 ![execPol](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/executionPolicy.png) <br />
 
 ## **4. Powershell Script Execution**
-In this command, I created a Powershell script that will output a small biography about the Warhammer Titan. <br />
+In this command, I created a Powershell script that will output a small biography about the Warhammer Titan. Without changing the Powershell execution policy, running this command that I created would not be possible since I would not have had the necessary privileges to run Powershell scripts. This is why I changed the execution policy for the current user to unrestricted. <br />
 ![aotCMD](https://github.com/seandreher/CNS-Lab/blob/main/Homework4/aotCMD.png)
 
 ## **5. Changes from badblood**
