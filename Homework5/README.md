@@ -18,7 +18,7 @@ The screenshot below demonstrates executing the hostname command on the servera 
 ## **Applying Key Based Authentication**
 The screenshot below shows me using command line to generate my own ssh keys. <br />
 ![rsa](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/rsaSS.png) <br />
-I then ran the command below to share the public key to the Cybernet jump box. <br />
+I then ran the command below to share the public key to the Cybernet jump box. The reason I ran the command is so both my localhost and the Cybernet jumpbox use the same rsa key that I generated. <br />
 ![rsa1](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/copyKEYover.png) <br />
 I then was able to automatically login with the user using key based authentication instead of typing in a password. <br />
 ![al](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/autoLOGINss.png)
