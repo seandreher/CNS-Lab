@@ -5,9 +5,13 @@ Homework 2: Container Orchestration  <br />
 LT Quarry <br />
 <br />
 ## **Learning about SSH**
+The screenshot below demonstrates running the w command to display the users that are currently logged in to serverb. <br />
 ![6102](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/6.10.2.png) <br />
+The screenshot below demonstrates running the hostname command remotely on the serverb machine without accessing the interactive shell. <br>
 ![12102](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/12.10.2.png) <br />
+The screenshot below demonstrates sending the public key of the SSH key pair to the operator1 user on the servera machine, with redhat as the password. <br />
 ![4104](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/4.10.4.png) <br />
+The screenshot below demonstrates executing the hostname command on the servera machine remotely by using the ssh command. <br />
 ![9104](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/correct9.10.4.png) <br />
 
 
