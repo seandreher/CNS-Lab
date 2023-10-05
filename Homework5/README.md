@@ -5,6 +5,11 @@ Homework 2: Container Orchestration  <br />
 LT Quarry <br />
 <br />
 ## **Learning about SSH**
+![6102](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/6.10.2.png) <br />
+![12102](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/12.10.2.png) <br />
+![4104](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/4.10.4.png) <br />
+![9104](https://github.com/seandreher/CNS-Lab/blob/main/Homework5/correct9.10.4.png) <br />
+
 
 ## **Applying Key Based Authentication**
 The screenshot below shows me using command line to generate my own ssh keys. <br />
