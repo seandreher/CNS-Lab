@@ -10,11 +10,11 @@ LT Quarry <br />
 
 
 ## **Windows Event ID**
-Windows Event ID: 4609 <br />
-Event Source: Microsoft-Windows-Security-Auditing <br />
-Event Type: Audit Success <br />
-Description: This is logged just before Windows shuts down. It provides information about the shutdown process, to include the reason for the shutdown and other related details. <br />
-Source: https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4609 <br />
+**Windows Event ID:** 4609 <br />
+**Event Source:** Microsoft-Windows-Security-Auditing <br />
+**Event Type:** Audit Success <br />
+**Description:** This is logged just before Windows shuts down. It provides information about the shutdown process, to include the reason for the shutdown and other related details. <br />
+**Source:** https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4609 <br />
 
 
 ## **input.conf**
