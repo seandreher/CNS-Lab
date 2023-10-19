@@ -18,4 +18,5 @@ The “Introduction to Splunk” course is, as the title suggests, is an introdu
 
 
 ## **input.conf**
-
+Depicted below is a screenshot of SnarkyPuppy's final inputs.conf file. It resides in the SplunkUniversalForwarder file on my domain workstation. I used the cat function to show the contents, and I included the entire path on the command to show its exact location in the system. The Windows Event Codes we chose to blacklist are: 4608, 4609, 4662, and 5156. I have also uploaded the group's inputs.conf to Homework6 repo. <br />
+![6102](https://github.com/seandreher/CNS-Lab/blob/main/Homework6/path2INPUTconf.png) <br />
