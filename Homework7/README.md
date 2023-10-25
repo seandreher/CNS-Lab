@@ -14,8 +14,8 @@ The associated CVE with the "Samba 2.2.8 (Linux x86) - 'trans2open' Remote Overf
  <br />
 
 ## **References**
-https://www.exploit-db.com/exploits/16861
-https://www.rapid7.com/db/modules/exploit/linux/samba/trans2open/
-https://nvd.nist.gov/vuln/detail/CVE-2003-0201
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0201
-https://cwe.mitre.org/data/definitions/121.html
+https://www.exploit-db.com/exploits/16861 <br />
+https://www.rapid7.com/db/modules/exploit/linux/samba/trans2open/ <br />
+https://nvd.nist.gov/vuln/detail/CVE-2003-0201 <br />
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0201 <br />
+https://cwe.mitre.org/data/definitions/121.html <br />
