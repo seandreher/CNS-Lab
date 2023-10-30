@@ -6,16 +6,16 @@ LT Quarry <br />
 <br />
 
 ## **Research a Vulnerable Service**
- <br />
-
+Webmin is a popular web-based system administration tool that simplifies the management of Unix-like operating systems and common Unix services. It provides a user-friendly interface for tasks such as configuring system settings, managing users, and setting up web servers. A security vulnerability was discovered in Webmin versions 1.890 through 1.920. All versions besides 1.890 require the password changing feature to be enabled. This vulnerability is labeled CVE-2019-12840. It enabled remote attackers to execute arbitrary code on affected systems. The issue stemmed from a backdoor that had been introduced into the Webmin source code. Attackers could exploit this backdoor to execute malicious Perl code. This gave the attacker unauthorized access and control over the targeted system. This remote code execution vulnerability was a significant concern, as it could be exploited remotely, potentially leading to unauthorized system compromise. From my experience, through research and hands-on practice, the initial configuration steps to enable password changing could be done from the GUI or the command line. From there, I used Metasploit to conduct the exploit after putting in the remote host and local host IPs.
+<br />
 
 ## **Locate Vulnerability Information**
-The associated CVE with the "Samba 2.2.8 (Linux x86) - 'trans2open' Remote Overflow" exploit is CVE 2003-0201. MITRE's CVE database described it as a buffer overflow in the call_trans2open function in trans2.c for Samba that allows remote attackers to execute arbitrary code. From reading the various links posted in the References section, there was no explicit CWE associated with this CVE. The associated CWE that MITRE posted on their website was "NVD-CWE-Other." Based on my understanding of this CVE, I believe the CWE of CWE-121: Stack-based Buffer Overflow best fits. This CWE occurs when a stack-based overflow condition is a condition where the buffer being overwritten is allocated on the stack. In the case of this vulnerability, a function.
+The associated CVE with "Webmin 1.920 - Remote Code Execution." exploit is CVE 2019-15107. MITRE's CVE database described it as a parameter old in password_change.cgi which contains a command injection vulnerability. NIST had the associated weakness as CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'). This vulnerability could enable attackers to execute unauthorized commands on the operating system, posing a significant risk in scenarios where attackers lack direct OS access, like web applications. Additionally, if this weakness is present in a privileged program, it may permit the execution of typically inaccessible or higher-privileged commands.
  <br />
 
 ## **References**
-* https://www.exploit-db.com/exploits/16861 <br />
-* https://www.rapid7.com/db/modules/exploit/linux/samba/trans2open/ <br />
-* https://nvd.nist.gov/vuln/detail/CVE-2003-0201 <br />
-* https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0201 <br />
-* https://cwe.mitre.org/data/definitions/121.html <br />
+* https://www.exploit-db.com/exploits/47293 <br />
+* https://medium.com/@knownsec404team/backdoor-exploration-of-webmin-remote-code-execution-vulnerabilities-cve-2019-15107-55234c0bd486 <br />
+* https://nvd.nist.gov/vuln/detail/CVE-2019-15107 <br />
+* https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15107 <br />
+* https://cwe.mitre.org/data/definitions/78.html <br />
