@@ -14,7 +14,7 @@ The security tool I chose to investigate was bettercap as I wanted to learn more
 I chose to use a tool that requires interaction between one or more network hosts and emulates some attacker action as it involves ARP spoofing and traffic sniffing. I chose to use Bettercap on my Kali VM with an IP of 172.25.1.54 to sniff the traffic of a separate workstation on the domain with an IP of 172.25.1.45. This is important as sniffing network traffic provides the ability to capture sensitive information, including credentials, which is a significant threat. The image below showcases my starting bettercap. <br />
 ![1hw8](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/1hw8.png)
 <br />
-Next, I checked the modules that were running. <br />
+Next, I checked the modules that were initally running when I started up Bettercap. <br />
 ![modules](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/moduleshw8.png)
 <br />
 I then wanted to see all of the hosts on the network which is shown in the screenshot below. <br />
