@@ -17,7 +17,7 @@ I chose to use a tool that requires interaction between one or more network host
 Next, I checked the modules that were initally running when I started up Bettercap. <br />
 ![modules](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/moduleshw8.png)
 <br />
-I then wanted to see all of the hosts on the network which is shown in the screenshot below. <br />
+I then wanted to see all of the hosts on the network which is shown in the screenshot below. I picked a workstation on the network to attack from the VM on the network. The IP of the victim is 172.25.1.45, and the IP of the ethical hacker is 172.25.1.54 <br />
 ![show](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/showhw8.png)
 <br />
 I enabled net.probe which will "send different types of probe packets to each IP in the current subnet in order for the net.recon module to detect" (Bettercap.org). <br />
