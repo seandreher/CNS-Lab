@@ -1,7 +1,7 @@
  # **Computer & Network Security**
 Sean Dreher  <br />
 Homework 7: Building Network Services  <br />
-26 Oct 2023  <br />
+Nov 2023  <br />
 LT Quarry <br />
 <br />
 
@@ -13,7 +13,15 @@ The security tool I chose to investigate was bettercap as I wanted to learn more
 ## **Demonstrate Use of Chosen Tool**
 I chose to use a tool that requires interaction between one or more network hosts and emulates some attacker action as it involves ARP spoofing and traffic sniffing. I chose to use Bettercap on my Kali VM with an IP of 172.25.1.54 to sniff the traffic of a separate workstation on the domain with an IP of 172.25.1.45. This is important as sniffing network traffic provides the ability to capture sensitive information, including credentials, which is a significant threat. The image below showcases my starting bettercap. <br />
 ![1hw8](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/1hw8.png)
-
+Next, I checked the modules that were running. <br />
+![modules](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/moduleshw8.png)
+I then wanted to see all of the hosts on the network which is shown in the screenshot below. <br />
+![show](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/showhw8.png)
+I enabled net.probe which will "send different types of probe packets to each IP in the current subnet in order for the net.recon module to detect" (Bettercap.org). <br />
+![probe](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/probehw8.png)
+I then started the arp.spoof which "keeps spoofing selected hosts on the network using crafted ARP packets in order to perform a MITM attack" (Bettercap.org). <br />
+Lastly, I stopped the man in the middle attack of ARP spoofing. <br />
+![stop](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/stophw8.png)
  <br />
 
 ## **References**
