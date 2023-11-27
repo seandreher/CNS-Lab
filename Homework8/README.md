@@ -10,6 +10,7 @@ The security tool I chose to investigate was bettercap as I wanted to learn more
 <br />
 
 ## **Demonstrate Use of Chosen Tool**
+I chose to use a tool that requires interaction between one or more network hosts and emulates some attacker action as it involves ARP spoofing and traffic sniffing. I chose to use Bettercap on my Kali VM with an IP of 172.25.1.54 to sniff the traffic of a separate workstation on the domain with an IP of 172.25.1.45. This is important as sniffing network traffic provides the ability to capture sensitive information, including credentials, which is a significant threat. The image below showcases my starting bettercap.
 
  <br />
 
