@@ -30,7 +30,8 @@ Lastly, I stopped the man in the middle attack of ARP spoofing. <br />
 
 ## **References**
 * https://www.bettercap.org/
-* 
+* https://www.bettercap.org/modules/ethernet/net.probe/
+* https://www.bettercap.org/modules/ethernet/spoofers/arp.spoof/
 
 ## **Download Links**
 * https://www.bettercap.org/installation/
