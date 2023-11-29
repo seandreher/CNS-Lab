@@ -24,6 +24,11 @@ I enabled net.probe which will "send different types of probe packets to each IP
 ![probe](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/probehw8.png)
 <br />
 I then started the arp.spoof which "keeps spoofing selected hosts on the network using crafted ARP packets in order to perform a MITM attack" (Bettercap.org). <br />
+The most significant traffic that I noticed was one in which I logged into testphp.vulnweb/login.php with the username 'seandreher' and the password 'password'. This traffic was captured by bettercap and shown in plaintext. A screenshot of the captured traffic is below with the image of the website and the login credentials further below. <br />
+![exposed](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/exposed.png)
+<br />
+![websiteexposed](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/websiteexposed.png)
+<br />
 Lastly, I stopped the man in the middle attack of ARP spoofing. <br />
 ![stop](https://github.com/seandreher/CNS-Lab/blob/main/Homework8/stophw8.png)
 <br />
